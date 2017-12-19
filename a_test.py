@@ -101,3 +101,62 @@ for i in range(5):
         break #中断当前循环
     print(i)
 '''
+'''
+def sqquare_sum(a,b):
+    c = a**2 + b**2
+    return a,b,c
+print(sqquare_sum(2,3))
+
+a = 1
+def change_integer(a):
+    a = a + 1
+    return a
+print(change_integer(a))
+print(a)   #a原值不变化
+
+b = [1,2,3]
+def change_list(b):
+    b[0] = b[0] + 1
+    return b
+print(change_list(b))
+print(b)  #b原值变化
+#1、对于基本数据类型的变量，变量传递给函数后，函数会在内存中复制一个新的变量，
+#从而不影响原来的变量。我们称之为值传递
+#2、对于表来说，表传递给函数的是一个指针，指针指向序列在内存中的位置，在函数中
+#对表的操作将再原有内存中进行，从而影响原有变量。我们称之为指针传递
+2017-12-18
+'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
